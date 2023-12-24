@@ -1,5 +1,5 @@
 def M2():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = random.choice([";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748054;FBDM/{density=2.0,width=720,height=1280};FBLC/en_GB;FBCR/VIVO;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-E700F;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748054;FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/Telenor;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH2043;FBSV/4.3.2;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748054;FBDM/{density=2.0,width=720,height=1600};FBLC/es_MX;FBCR/null;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/XT2149-1;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748054;FBDM/{density=2=0,width=720,height=1520};FBLC/en_US;FBCR/Grameenphone;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/M1908C3IC;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"])
+	b = ";[FBAN/FB4A;FBAV/196.0.0.76;FBBV/409625381;FBDM/{density=2.5,width=1080,height=720};FBLC/en_PK;FBRV/419154853;FBCR/Jazz;FBMF/VIVO;FBBD/VIVO;FBPN/com.facebook.katana;FBDV/Vivo 93K Prime;FBSV/5.0.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua = a+b
 	return ua
