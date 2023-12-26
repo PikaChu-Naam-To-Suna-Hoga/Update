@@ -1,5 +1,6 @@
 def M1():
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/FB4A;FBAV/196.0.0.88;FBBV/990147883;FBDM/{density=2.5,width=720,height=1920};FBLC/en_IN;FBRV/742397415;FBCR/WOM;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo Xplay6;FBSV/12.3.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-	ua = a+b
-	return ua
+    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    c = ";[FBAN/FB4A;FBAV/196.0.0.78;FBBV/386680306;FBDM/{density=3.0,width=1280,height=1080};FBLC/en_AU;FBRV/575109609;FBCR/China Telecom;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Mi One C1;FBSV/10.1.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = b+c
+    return ua
