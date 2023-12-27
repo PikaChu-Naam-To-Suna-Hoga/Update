@@ -1,6 +1,6 @@
 def M1():
     a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    c = ";[FBAN/Orca-Android;FBAV/208.0.0.27.84;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/147370198;FBCR/CARLO BR;FBMF/samsung;FBBD/samsung;FBDV/SM-A736B;FBSV/9.5;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0width=1080,height=2340};FB_FW/1;]"
+    c = ";[FBAN/Orca-Android;FBAV/208.0.0.27.84;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/147370198;FBCR/null;FBMF/Lenovo;FBBD/Lenovo;FBDV/S898t+;FBSV/4.2.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1280};FB_FW/1;]"
     ua = b+c
     return ua
