@@ -1,5 +1,5 @@
 def M1():
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/Orca-Android;FBAV/196.0.0.16;FBPN/com.facebook.orca;FBLC/bt_BR;FBBV/168525613;FBCR/CARLO BR;FBMF/samsung;FBBD/samsung;FBDV/SM-G610F;FBSV/6.2.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;FBRV/345578678;]"
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
+	b = random.choice(["[FBAN/Orca-Android;FBAV/196.0.0.26;FBPN/com.facebook.orca;FBLC/en_IN;FBBV/164454996;FBCR/IND-JIO;FBMF/samsung;FBBD/samsung;FBDV/SM-A215U;FBSV/10.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.375,width=720,height=1600};FB_FW/1;FBRV/350982508;]","[FBAN/FB4A;FBAV/196.0.0.42;FBBV/535937826;FBDM/{density=1.5,width=1080,height=1080};FBLC/en_CA;FBRV/397522173;FBCR/IND-JIO;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-C1158;FBSV/8.0.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]"])
 	ua = a+b
 	return ua
