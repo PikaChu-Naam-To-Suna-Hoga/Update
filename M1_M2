@@ -1,5 +1,5 @@
 def M1():
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/Orca-Android;FBAV/196.0.0.76;FBPN/com.facebook.orca;FBLC/hi_IN;FBBV/159546931;FBCR/LMT;FBMF/AGM;FBBD/AGM;FBDV;AGM X3;FBSV/9.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=1080,height=720};FB_FW/1;FBRV/390282414;]"
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
+	b = random.choice(["[FBAN/Orca-Android;FBAV/196.0.0.76;FBPN/com.facebook.orca;FBLC/hi_IN;FBBV/159546931;FBCR/LMT;FBMF/AGM;FBBD/AGM;FBDV;AGM X3;FBSV/9.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=1080,height=720};FB_FW/1;FBRV/390282414;]","[FBAN/Orca-Android;FBAV/196.0.0.76;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/135762836;FBCR/CLARO;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/M1903C3EG;FBSV/9.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.265,width=720,height=1440};FB_FW/1;FBRV/373131888;]","[FBAN/Orca-Android;FBAV/196.0.0.17.116;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/391833903;FBCR/VIVO;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1925;FBSV/7.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.375,width=1440,height=720};FB_FW/1;] FBBK/1"])
 	ua = a+b
 	return ua
