@@ -1,5 +1,5 @@
 def M1():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/FB4A;FBAV/395.0.0.27.214;FBBV/319025317;FBDM/{density=3.0,width=1080,height=2156};FBLC/en_GB;FBRV/319214925;FBCR/FASTWEB;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1613;FBSV/6.0.1;FBOP/1;FBCA/arm64-v8a:;]"
+	b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748054;FBDM/{density=2.0,width=720,height=1280};FBLC/ar_AR;FBCR/Libyana;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G7102;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]"
 	ua = a+b
 	return ua
