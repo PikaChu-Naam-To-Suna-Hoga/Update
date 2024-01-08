@@ -1,4 +1,4 @@
-def M2():
+def M1():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
 	b = "[FBAN/FB4A;FBBV/158425850;FBDM/&#123;density=3.0,width=1080,height=1920&#125;;FBLC/en_US;FBRV/159951317;FB_FW/2;FBCR/Telstra;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G900I;FBSV/6.0.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua = a+b
